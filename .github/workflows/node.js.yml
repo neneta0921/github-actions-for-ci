@@ -16,6 +16,7 @@ jobs:
 
     strategy:
       matrix:
+        os: [ubuntu-16.x, ubuntu-18.x]
         node-version: [8.x, 10.x]
 
     steps:
